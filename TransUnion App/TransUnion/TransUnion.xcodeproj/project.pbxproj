@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C943D37E1AE2261D00143749 /* LeftBarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C943D37D1AE2261D00143749 /* LeftBarTableViewController.m */; };
+		C96274941AE2B591002DA9FC /* statistics_icon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = C96274921AE2B591002DA9FC /* statistics_icon@1x.png */; };
+		C96274951AE2B591002DA9FC /* statistics_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C96274931AE2B591002DA9FC /* statistics_icon@2x.png */; };
 		C96861691AE2538200FEC885 /* Intro-Regular-Alt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C968615F1AE2526300FEC885 /* Intro-Regular-Alt.ttf */; };
 		C968616A1AE2538200FEC885 /* Intro-Regular-Caps.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C96861601AE2526300FEC885 /* Intro-Regular-Caps.ttf */; };
 		C968616B1AE2538200FEC885 /* Intro-Regular-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C96861611AE2526300FEC885 /* Intro-Regular-Italic.ttf */; };
@@ -43,6 +45,8 @@
 /* Begin PBXFileReference section */
 		C943D37C1AE2261D00143749 /* LeftBarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftBarTableViewController.h; sourceTree = "<group>"; };
 		C943D37D1AE2261D00143749 /* LeftBarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftBarTableViewController.m; sourceTree = "<group>"; };
+		C96274921AE2B591002DA9FC /* statistics_icon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statistics_icon@1x.png"; sourceTree = "<group>"; };
+		C96274931AE2B591002DA9FC /* statistics_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statistics_icon@2x.png"; sourceTree = "<group>"; };
 		C968615F1AE2526300FEC885 /* Intro-Regular-Alt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Intro-Regular-Alt.ttf"; sourceTree = "<group>"; };
 		C96861601AE2526300FEC885 /* Intro-Regular-Caps.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Intro-Regular-Caps.ttf"; sourceTree = "<group>"; };
 		C96861611AE2526300FEC885 /* Intro-Regular-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Intro-Regular-Italic.ttf"; sourceTree = "<group>"; };
@@ -95,6 +99,8 @@
 			children = (
 				C96D71581AE24C300043CC0F /* dashboard_icon@1x.png */,
 				C96D71591AE24C300043CC0F /* dashboard_icon@2x.png */,
+				C96274921AE2B591002DA9FC /* statistics_icon@1x.png */,
+				C96274931AE2B591002DA9FC /* statistics_icon@2x.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -268,6 +274,7 @@
 				C968616B1AE2538200FEC885 /* Intro-Regular-Italic.ttf in Resources */,
 				C968616C1AE2538200FEC885 /* Intro-Regular.ttf in Resources */,
 				C968616D1AE2538200FEC885 /* Intro-Semi-Bold-Caps.ttf in Resources */,
+				C96274941AE2B591002DA9FC /* statistics_icon@1x.png in Resources */,
 				C968616E1AE2538200FEC885 /* Intro-Semi-Bold-Italic.ttf in Resources */,
 				C968616F1AE2538200FEC885 /* Intro-Semi-Bold.ttf in Resources */,
 				C96861701AE2538200FEC885 /* Intro-Semi-BoldAlt.ttf in Resources */,
@@ -275,6 +282,7 @@
 				C96861721AE2538200FEC885 /* tu-icon-font.ttf in Resources */,
 				C9E5C0B41AE2124500CC4D11 /* Main.storyboard in Resources */,
 				C96D715A1AE24C300043CC0F /* dashboard_icon@1x.png in Resources */,
+				C96274951AE2B591002DA9FC /* statistics_icon@2x.png in Resources */,
 				C9E5C0B91AE2124500CC4D11 /* LaunchScreen.xib in Resources */,
 				C9E5C0B61AE2124500CC4D11 /* Images.xcassets in Resources */,
 				C96D715B1AE24C300043CC0F /* dashboard_icon@2x.png in Resources */,

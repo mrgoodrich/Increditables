@@ -26,6 +26,11 @@
         NSArray *fontNames = [UIFont fontNamesForFamilyName:[fontFamilies objectAtIndex:i]];
         NSLog (@"%@: %@", fontFamily, fontNames);
     }
+    [self setNeedsStatusBarAppearanceUpdate];
+}
+
+-(UIStatusBarStyle)preferredStatusBarStyle{
+    return UIStatusBarStyleLightContent;
 }
 
 - (void)didReceiveMemoryWarning {

@@ -18,7 +18,7 @@
     [super viewDidLoad];
     self.tableView.scrollEnabled = NO;
     
-    
+    self.tableView.separatorColor = [UIColor clearColor];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -40,7 +40,8 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TitleBar" forIndexPath:indexPath];
     UILabel *titleBarLabel = (UILabel *)[cell viewWithTag:101];
-    titleBarLabel.textColor = [UIColor whiteColor];
+    titleBarLabel.highlightedTextColor = [UIColor whiteColor];
+    titleBarLabel.textColor = [UIColor colorWithRed:128.0/255.0 green:192.0/255.0 blue:208.0/255.0 alpha:1.0];
     titleBarLabel.font = IntroThinCaps;
     UIImageView *barIcon = (UIImageView *)[cell viewWithTag:102];
     
@@ -48,10 +49,23 @@
         titleBarLabel.text = @"Dashboard";
         UIImage *dashboardImage = [UIImage imageNamed:@"dashboard_icon"];
         [barIcon setImage:dashboardImage];
+    } else if (indexPath.row == 1){
+        titleBarLabel.text = @"Statistics";
+        UIImage *statisticsImage = [UIImage imageNamed:@"statistics_icon"];
+        [barIcon setImage:statisticsImage];
     }
+    
+    
     [cell setBackgroundColor:[UIColor colorWithRed:1/255.0 green:137/255.0 blue:171/255.0 alpha:1.0]];
+    
+    UIView *selectedBackgroundView = [[UIView alloc] init];
+    selectedBackgroundView.backgroundColor = [UIColor colorWithRed:1/255.0 green:137/255.0 blue:171/255.0 alpha:1.0];
+    cell.selectedBackgroundView = selectedBackgroundView;
+    
     return cell;
 }
+
+
 
 /*
 // Override to support conditional editing of the table view.

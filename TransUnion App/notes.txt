@@ -17,7 +17,7 @@ Credit report
 		Landlords
 	
 	Who collects the info?
-		TransUnion, Equifax, and Experian
+		TransUnion, Equifax, and Experians
 
 	Where do they get info from?
 		Creditors (Banks, credit card issuers, etc)
