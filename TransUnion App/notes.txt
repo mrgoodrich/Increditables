@@ -1,0 +1,51 @@
+Credit report
+
+	Record of credit history, includes information about identity, credit, public 		records, credit inquires.
+	
+	Hard inquiry - stays on report for two years and impacts score, ex is car loan
+
+	Soft inquiry - doesnt impact score
+	
+	Consumer should
+		Review report regularly
+		
+	Who looks at report?
+		Lenders
+		Insurance companies
+		Employers
+		Telephone and utility companies
+		Landlords
+	
+	Who collects the info?
+		TransUnion, Equifax, and Experian
+
+	Where do they get info from?
+		Creditors (Banks, credit card issuers, etc)
+		Public records from the courts
+	
+	THERE IS EXAMPLE IN RESOURCES OF CURRENT WEB PAGE
+
+
+Credit score
+
+	Indicator of financial health
+
+	Factors
+		Payment history (If late or on time)
+		Number of accounts
+		Total balances (should try to keep low)
+		Recent activity
+
+	How to keep good score
+		Pay bills on time
+		Dont get close to credit limit
+		A long history will help score
+		Only apply for credit you need
+
+
+Credit simulator
+	
+	Shows how adjustments to their credit report data may affect their score
+
+	10 simulations
+		On pp probably
