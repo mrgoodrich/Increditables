@@ -27,6 +27,10 @@
         NSLog (@"%@: %@", fontFamily, fontNames);
     }
     [self setNeedsStatusBarAppearanceUpdate];
+    
+    [self setModalPresentationStyle:UIModalPresentationCurrentContext];
+    
+    self.navigationController.navigationBarHidden = YES;
 }
 
 -(UIStatusBarStyle)preferredStatusBarStyle{

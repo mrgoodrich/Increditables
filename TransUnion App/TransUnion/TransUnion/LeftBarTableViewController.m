@@ -7,6 +7,7 @@
 //
 
 #import "LeftBarTableViewController.h"
+#import "DashboardViewController.h"
 
 @interface LeftBarTableViewController ()
 
@@ -22,6 +23,8 @@
 }
 
 - (void)viewDidAppear:(BOOL)animated {
+    NSIndexPath *indexPath=[NSIndexPath indexPathForRow:0 inSection:0];
+    [self.tableView selectRowAtIndexPath:indexPath animated:YES  scrollPosition:UITableViewScrollPositionBottom];
 }
 
 #pragma mark - Table view data source
@@ -47,11 +50,28 @@
     
     if (indexPath.row == 0){
         titleBarLabel.text = @"Dashboard";
-        UIImage *dashboardImage = [UIImage imageNamed:@"dashboard_icon"];
+        UIImage *dashboardImage = [UIImage imageNamed:@"dashboard_icon_unselected"];
+        [barIcon setHighlightedImage:[UIImage imageNamed:@"dashboard_icon"]];
         [barIcon setImage:dashboardImage];
     } else if (indexPath.row == 1){
         titleBarLabel.text = @"Statistics";
-        UIImage *statisticsImage = [UIImage imageNamed:@"statistics_icon"];
+        UIImage *statisticsImage = [UIImage imageNamed:@"statistics_icon_unselected"];
+        [barIcon setHighlightedImage:[UIImage imageNamed:@"statistics_icon"]];
+        [barIcon setImage:statisticsImage];
+    } else if (indexPath.row == 2){
+        titleBarLabel.text = @"Alerts";
+        UIImage *statisticsImage = [UIImage imageNamed:@"alerts_icon_unselected"];
+        [barIcon setHighlightedImage:[UIImage imageNamed:@"alerts_icon"]];
+        [barIcon setImage:statisticsImage];
+    } else if (indexPath.row == 3){
+        titleBarLabel.text = @"Identity Protection";
+        UIImage *statisticsImage = [UIImage imageNamed:@"lock_icon_unselected"];
+        [barIcon setHighlightedImage:[UIImage imageNamed:@"lock_icon"]];
+        [barIcon setImage:statisticsImage];
+    } else if (indexPath.row == 4){
+        titleBarLabel.text = @"Profile";
+        UIImage *statisticsImage = [UIImage imageNamed:@"profile_icon_unselected"];
+        [barIcon setHighlightedImage:[UIImage imageNamed:@"profile_icon"]];
         [barIcon setImage:statisticsImage];
     }
     
@@ -63,6 +83,9 @@
     cell.selectedBackgroundView = selectedBackgroundView;
     
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
 }
 
 
